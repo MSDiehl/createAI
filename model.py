@@ -1,4 +1,5 @@
 from attentionMechanisms import *
+import tensorflow as tf
 
 #Where encoder_input_data, decoder_input_data, and decoder_target_data are your training data
 
