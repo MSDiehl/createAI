@@ -1,4 +1,4 @@
-import tensorflow as tf 
+import tensorflow as tf
 from tensorflow.keras.layers import Input, Embedding, Bidirectional, LSTM, Concatenate, Dense, Attention
 
 def create_attention_model(input_vocab_size, output_vocab_size, input_length, output_length, n_units):
